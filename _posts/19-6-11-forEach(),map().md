@@ -4,7 +4,7 @@ title:      Array遍历方法forEach,map
 subtitle:   forEach(),map()
 date:       2019-6-11
 author:     Lan
-header-img: img/2019-5-28-firstBlog.jpg
+header-img: img/blog-bak.jpg
 catalog: true
 tags:
     - forEach
