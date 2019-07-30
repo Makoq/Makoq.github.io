@@ -59,28 +59,30 @@ kramdown:
 # Disqus（https://disqus.com/）
 # disqus_username: qiubaiying
 
-# # Gitalk
-# gitalk:
-#   enable: true    #是否开启Gitalk评论
-#   clientID: f2c84e7629bb1446c1a4                            #生成的clientID
-#   clientSecret: ca6d6139d1e1b8c43f8b2e19492ddcac8b322d0d    #生成的clientSecret
-#   repo: Makoq.github.io    #仓库名称
-#   owner: Makoq    #github用户名
-#   admin: Makoq
-#   distractionFreeMode: true #是否启用类似FB的阴影遮罩
+# Gitalk
+gitalk:
+  enable: true    #是否开启Gitalk评论
+  clientID: f2c84e7629bb1446c1a4                            #生成的clientID
+  clientSecret: ca6d6139d1e1b8c43f8b2e19492ddcac8b322d0d    #生成的clientSecret
+  repo: Makoq.github.io    #仓库名称
+  owner: Makoq    #github用户名
+  admin: Makoq
+  distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
-#gitcomment
-gitment:
-  enable: true
-  mint: true # RECOMMEND, A mint on Gitment, to support count, language and proxy_gateway
-  count: true # Show comments count in post meta area
-  lazy: false # Comments lazy loading with a button
-  cleanly: false # Hide 'Powered by ...' on footer, and more
-  language: # Force language, or auto switch by theme
-  github_user: Makoq
-  github_repo: Makoq/GitPageComments
-  client_id: 3319589e699c3570bb3e
-  client_secret: ded0a4d9882d9c76f7fe692ca586e13a129c823a
+
+  
+# #gitcomment
+# gitment:
+#   enable: true
+#   mint: true # RECOMMEND, A mint on Gitment, to support count, language and proxy_gateway
+#   count: true # Show comments count in post meta area
+#   lazy: false # Comments lazy loading with a button
+#   cleanly: false # Hide 'Powered by ...' on footer, and more
+#   language: # Force language, or auto switch by theme
+#   github_user: Makoq
+#   github_repo: GitPageComments
+#   client_id: 3319589e699c3570bb3e
+#   client_secret: ded0a4d9882d9c76f7fe692ca586e13a129c823a
 
 
 
