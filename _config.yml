@@ -69,6 +69,21 @@ gitalk:
   admin: Makoq
   distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
+#gitcomment
+gitment:
+  enable: true
+  mint: true # RECOMMEND, A mint on Gitment, to support count, language and proxy_gateway
+  count: true # Show comments count in post meta area
+  lazy: false # Comments lazy loading with a button
+  cleanly: false # Hide 'Powered by ...' on footer, and more
+  language: # Force language, or auto switch by theme
+  github_user: Makoq
+  github_repo: Makoq/GitPageComments
+  client_id: 3319589e699c3570bb3e
+  client_secret: ded0a4d9882d9c76f7fe692ca586e13a129c823a
+
+
+
 
 # 统计
 
