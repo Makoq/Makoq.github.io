@@ -15,12 +15,12 @@ tags:
 
 # 变量
 ## export
-- 导出时声明并定义
+### 导出时声明并定义
 ```
 export var firstName = 'Michael';
 ```
 
-- 导出变量名
+### 导出变量名
 
 ```
 var firstName = 'Michael';
@@ -35,7 +35,8 @@ import {firstName, lastName} from 'xxx';
 ```
 # 函数
 
-- 直接导出函数
+### 直接导出函数
+
 ```
 export function multiply(x, y) {
 
@@ -43,7 +44,9 @@ export function multiply(x, y) {
 
 };
 ```
-- 导出声明的函数
+
+### 导出声明的函数
+
 ```
 function v1() { ... }
 function v2() { ... }
@@ -58,6 +61,7 @@ export {
 
 };
 ```
+
 # 类
 
 ```
@@ -71,6 +75,7 @@ export default class { ... }
 **为了给用户提供方便，让他们不用阅读文档就能加载模块，就要用到export default命令，为模块指定默认输出。**
 
 ## eg.1 默认导出函数，导入时，由导入端进行命名
+
 ```
 //导出
 // export-default.js
@@ -83,12 +88,14 @@ export default function () {
 import customName from './export-default';
 customName(); // 'foo'
 ```
+
 这里对于匿名函数和非匿名函数都适用
 
 
 **export default 本质就是输出名为default的变量或方法，然后在导入方允许给它起任意的名字**
 
 ## eg.2 默认导出函数，导入时，由导入端进行命名
+
 ```
 // modules.js
 function add(x, y) {
