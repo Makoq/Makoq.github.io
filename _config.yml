@@ -1,5 +1,5 @@
 # Site settings
-title: Lan
+title: Lan Zhenxu
 SEOTitle: 旭氏美术馆 | Lan
 header-img: img/blog-bak.jpg
 email: zhenxvlan@gmail.com
@@ -11,7 +11,7 @@ github_repo: "https://github.com/Makoq/Makoq.github.io.git" # you code repositor
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "Goals determine what you going to be!"
+sidebar-about-description: "keep happy and desire of knowledage."
 sidebar-avatar: /img/about-me.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
@@ -21,7 +21,7 @@ RSS: false
 weibo_username:     5448961836
 zhihu_username:     lamn-91
 github_username:    Makoq
-cdns_username:    ChenXvYuan_001
+csdn_username:    ChenXvYuan_001
 #facebook_username:  baiying.qiu.7
 #jianshu_username:   e71990ada2fd
 #twitter_username:   qiubaiying
