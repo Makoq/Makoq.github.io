@@ -117,11 +117,15 @@ service-worker: true
 # Friends
 friends: [
    {
-       title: "csdn",
+       title: "CSDN\n",
        href: "https://blog.csdn.net/ChenXvYuan_001"
    }, 
    {
        title: "OpenGMS",
        href: "http://geomodeling.njnu.edu.cn/"
+   }, 
+   {
+       title: "OpenGMS Team",
+       href: "http://opengmsteam.com/members_4seo.html"
    }, 
 ]
