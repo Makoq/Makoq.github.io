@@ -54,6 +54,11 @@ module.exports = {
 }
 ~~~
 
+
+
+
+
+
 - ####  css及图片的引用
 实际上 CSS 被转化为 style 标签, 而图片可能被转化成 base64 格式的 dataUrl
 但是要主要在 webpack.config.js 文件写好对应的 loader
